@@ -8,9 +8,11 @@ import Search from "../components/Search";
 class SearchBooks extends Component {
     state = {
         books: [],
-        title: "",
-        author: "",
-        synopsis: ""
+        authors: "",
+        description: "",
+        image: "",
+        link: "",
+        title: ""
       };
 
     componentDidMount() {

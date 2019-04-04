@@ -5,9 +5,8 @@ function Results() {
         <div className="card">
             <div className="topOfCard">
             <div className="text">
-                <h2>Title</h2>
-                <h4>Sub-Title</h4>
-                <h6>Author</h6>
+                <h2>{this.state.title}</h2>
+                <h6>{this.state.authors}</h6>
             </div>
             <div className="resultButtons">
                 <button type="button" className="btn btn-dark">View</button>
